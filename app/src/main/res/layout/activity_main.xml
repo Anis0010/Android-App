@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFA000"
+            android:text="Calculator"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="25+34"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="%"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="7"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="4"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="1"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="c"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+<Space
+    android:layout_width="20sp"
+    android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="("
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="8"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="5"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="2"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="0"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+            <Space
+                android:layout_width="20sp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text=")"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="9"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="6"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="3"
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#424242"
+                    android:text="."
+                    android:textColor="#BDBDBD"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+            <Space
+                android:layout_width="20sp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="94dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#FFA000"
+                    android:text="+/-"
+                    android:textColor="@color/white"
+                    android:textSize="35sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#FFA000"
+                    android:text="*"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#FFA000"
+                    android:text="/"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp" />
+
+                <Button
+                    android:id="@+id/myRoundButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#FFA000"
+                    android:text="="
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    tools:ignore="DuplicateIds" />
+
+
+            </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
+
